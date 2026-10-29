@@ -4,7 +4,7 @@ services:
     image: node:25
     working_dir: /app/api-day01
     volumes:
-      - ./api:/app/api-day01
+      - ./api-day01:/app/api-day01
     ports:
       - 3002:3000
     command: [ "npm", "run", "start:dev" ]
